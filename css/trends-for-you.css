@@ -1,0 +1,43 @@
+.trends-for-you {
+  background-color: #f5f8fa;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.trends-for-you__block {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+.trends-for-you__block:hover {
+  background-color: #e6e6e6;
+}
+.trends-for-you__block:hover:first-child {
+  background-color: #f5f8fa;
+}
+
+.trends-for-you__block:last-child {
+  border-bottom: none;
+}
+
+.trends-for-you__heading {
+  font-size: 19px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+.trends-for-you__meta-information {
+  font-size: 13px;
+  font-weight: 300;
+  color: #536471;
+}
+
+.trends-for-you__trend-name {
+  font-size: 15px;
+  color: 0F1419;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  line-height: 20px;
+}

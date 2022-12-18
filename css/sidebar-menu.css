@@ -1,0 +1,93 @@
+.sidebar-menu {
+  position: fixed;
+}
+
+.sidebar-menu__item {
+  font-size: 20px;
+  color: #0F1419;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-weight: 400;
+  transition-duration: background-color 1sn;
+}
+
+.sidebar-menu__item:hover {
+  border-radius: 28px;
+  background-color: rgba(128, 128, 128, 0.2);
+  cursor: pointer;
+}
+
+.sidebar-menu__item--active {
+  color: #1da0f2;
+}
+
+.sidebar-menu__item-icon {
+  height: 26.25px;
+  width: 26.25px;
+  margin-right: 20px;
+}
+
+.sidebar-menu__item--active .sidebar-menu__item-icon {
+  filter: invert(56%) sepia(25%) saturate(6119%) hue-rotate(177deg) brightness(97%) contrast(95%);
+}
+
+
+
+
+.sidebar-menu__tweet-button {
+  background-color: #1da0f2;
+  color: white;
+  padding: 12px;
+  border-radius: 28px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+/* My profile part */
+
+.my-profile__author-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.my-profile {
+  display: flex;
+  position: fixed;
+  bottom: 25px;
+  padding: 12px;
+  align-items: cener;
+}
+
+.my-profile:hover {
+  border-radius: 28px;
+  background-color: rgba(128, 128, 128, 0.2);
+  cursor: pointer;
+}
+
+.my-profile__three-dots {
+  width: 13px;
+  height: 13px;
+}
+
+.my-profile__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.my-profile__author-slug {
+  color: #5b7083;
+  font-size: 15px;
+}
+
+.my-profile__author-name {
+  font-size: 15px;
+  font-weight: 700;
+}

@@ -1,0 +1,8 @@
+.layout__search-bar{
+    width: 330px;
+    padding: 15px 10px;
+    border: none;
+    background-color: #f5f8fa;
+    border-radius: 15px;
+    margin-top: 10px;
+}

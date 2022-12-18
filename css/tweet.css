@@ -1,0 +1,102 @@
+.tweet {
+  display: flex;
+  border-bottom: 1px solid #e6ecf0;
+  margin-bottom: 2px;
+  padding: 10px 15px;
+}
+
+.tweet:hover {
+  background-color: rgba(0,0,0,0.03);
+  cursor: pointer;
+}
+
+
+.tweet a {
+  color: #1b94e0;
+  text-decoration: none;
+}
+
+.tweet a:hover {
+  text-decoration: underline;
+}
+
+.tweet__author-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet__header-info {
+  display: flex;
+}
+
+
+.tweet__author-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #14171a;
+  margin-right: 5px;
+}
+
+.tweet__author-slug {
+  font-size: 15px;
+  color: #5b7083;
+}
+
+.tweet__publish-time {
+  margin-left: 5px;
+  color: #657786;
+}
+
+.tweet__image {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+
+.tweet__three-dots {
+  width: 18.75px;
+  height: 18.75px;
+}
+
+.tweet__three-dots-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tweet__three-dots-container:hover {
+  background-color: rgba(27, 148, 224, 0.1)
+}
+
+.tweet__three-dots-container:hover .tweet__three-dots {
+  filter: invert(56%) sepia(25%) saturate(6119%) hue-rotate(177deg) brightness(97%) contrast(95%);
+}
+
+.tweet__bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.tweet__bottom-container-icon {
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+}
+
+.tweet__bottom-container-icon:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 20px;
+}
