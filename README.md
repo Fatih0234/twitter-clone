@@ -6,7 +6,7 @@
 <p align="left">
 Hey there, here's a twitter clone I have built with only html and css. It was fun and I learnt a lot out of this project.
 
-<a href="http://127.0.0.1:5500/twitter_clone.html" target="_blank"> Click here to see the project </a>
+<a href="http://127.0.0.1:5500/twitter_clone.html" target="blank"> Click here to see the project </a>
 
 
 <h3 align=left> Things I will be updating and advancing about this project. </h3>
