@@ -7,12 +7,13 @@
 Hey there, here's a twitter clone I have built with only html and css. It was fun and I learnt a lot out of this project.
 
 
-Things I will be updating and advancing about this project.
---- Definitely, position of the object when resizing the page.
---- Icon colors below every post when hovering over ( Actually there is a background gray color when hovering over but when hovering over like button, you expect a red not gray.) Temporarly, there is gray background color in every icon.
---- Stats related to the every post like how many likes, retweet etc.
---- in search bar, the search-bar icon on the left.
---- Tooltips when hovering over to the profiles that shows stats like how many followers, and following, photos, names, a few info in the bio section etc. 
+<h3 align=left> Things I will be updating and advancing about this project. </h3>
+
+- Definitely, position of the object when resizing the page.
+- Icon colors below every post when hovering over ( Actually there is a background gray color when hovering over but when hovering over like button, you expect a red not gray.) Temporarly, there is gray background color in every icon.
+- Stats related to the every post like how many likes, retweet etc.
+- in search bar, the search-bar icon on the left.
+- Tooltips when hovering over to the profiles that shows stats like how many followers, and following, photos, names, a few info in the bio section etc. 
 
 </p>
 
