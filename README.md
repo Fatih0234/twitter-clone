@@ -17,6 +17,8 @@ Hey there, here's a twitter clone I have built with only html and css. It was fu
 
 </p>
 
+<h3 align=left> More to learn about me </h3>
+
 - 🌱 I’m currently learning **data structures and web development(mainly Flask)**
 
 - 💬 Ask me about **python, html&css**
